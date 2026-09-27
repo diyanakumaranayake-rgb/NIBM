@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slip with Cool and Confident</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; }
+    header { background:#4CAF50; color:white; padding:15px; text-align:center; }
+    nav { background:#333; padding:10px; }
+    nav a { color:white; margin:0 10px; text-decoration:none; }
+    nav a:hover { text-decoration:underline; }
+    .hero { background:url('images/header-background.jpg') no-repeat center; background-size:cover; color:white; text-align:center; padding:80px 20px; }
+    .hero h1 { font-size:48px; margin:0; color: white; }
+    .hero p { font-size:20px; }
+    .btn { background:#4CAF50; color:white; padding:10px 20px; border:none; cursor:pointer; }
+    .container { padding:20px; }
+    .products { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+    .product { background:white; padding:15px; border:1px solid #ddd; width:250px; text-align:center; }
+    .product img { width:100%; height:auto; }
+    footer { background:#333; color:white; text-align:center; padding:20px; margin-top:20px; }
+    .cart, .checkout { background:white; padding:20px; margin:20px auto; max-width:600px; border:1px solid #ddd; }
+    h2 { color:#4CAF50; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Stylish Slip</h1>
+  <p>Slip with Cool and Confident</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#shop">Shop</a>
+  <a href="#about">About Us</a>
+  <a href="#blog">Blog</a>
+  <a href="#contact">Contact</a>
+  <a href="#account">My Account</a>
+  <a href="#cart">Cart</a>
+</nav>
+
+<section class="hero" id="home">
+  <h1>Eco-Friendly Products for Everyday Life</h1>
+  <p>Shop consciously, live sustainably.</p>
+  <button class="btn">Shop Now</button>
+</section>
+
+<section class="container" id="shop">
+  <h2>Featured Products</h2>
+  <div class="products">
+    <div class="product">
+      <img src="images/classic.jpg" alt="Classic">
+      <h3>Classic</h3>
+      <p>$3.99</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="images/Luxe.jpg" alt="Luxe">
+      <h3>Luxe</h3>
+      <p>$12.99</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="images/sporty.jpg" alt="Sporty">
+      <h3>Sporty</h3>
+      <p>$9.99</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="images/eco.jpg" alt="Eco">
+      <h3>Eco</h3>
+      <p>$4.50</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="about">
+  <h2>About Us</h2>
+  <p>at stylish slip we design bottles that are sleek, durable and eco friendly, so you can refreshed while looking cool and confident.</p>
+</section>
+
+<section class="container" id="cart">
+  <h2>Your Cart</h2>
+  <div class="cart">
+    <p><strong>Sporty bottle</strong> - $9.99</p>
+    <p><strong>Classic bottle</strong> - $3.99</p>
+    <hr>
+    <p><strong>Total: $13.98</strong></p>
+    <button class="btn">Proceed to Checkout</button>
+  </div>
+</section>
+
+<section class="container" id="checkout">
+  <h2>Checkout</h2>
+  <div class="checkout">
+    <form>
+      <label>Name:</label><br>
+      <input type="text" required><br><br>
+      <label>Email:</label><br>
+      <input type="email" required><br><br>
+      <label>Address:</label><br>
+      <textarea required></textarea><br><br>
+      <label>Payment Method:</label><br>
+      <select>
+        <option>Credit/Debit Card</option>
+        <option>PayPal</option>
+        <option>Stripe</option>
+      </select><br><br>
+      <button class="btn">Confirm Order</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 GreenSprout | Follow us on 🌍 Instagram, Facebook, Twitter</p>
+</footer>
+
+</body>
+</html>
