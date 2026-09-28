@@ -21,6 +21,13 @@
     footer { background:#333; color:white; text-align:center; padding:20px; margin-top:20px; }
     .cart, .checkout { background:white; padding:20px; margin:20px auto; max-width:600px; border:1px solid #ddd; }
     h2 { color:#4CAF50; }
+    /* ✅ Correct logo scaling */
+  header .logo {
+    height: 80px;   /* Adjust height to fit header */
+    width: auto;    /* Keeps proportions correct */
+    display: block;
+    margin: 0 auto; /* Centers logo */
+  }
   </style>
 </head>
 <body>
@@ -30,19 +37,6 @@
   <h1>Stylish Slip</h1>
   <p>Slip with Cool and Confident</p>
 </header>
-
-  .hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.hero .logo {
-  height: 80px;   /* Adjust height to fit header */
-  width: auto;    /* Keeps proportions correct */
-}
-
   
 <nav>
   <a href="#home">Home</a>
